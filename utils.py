@@ -83,7 +83,7 @@ class Config:
         "mammals": imagemammal,
         "marine": marine,
         "veg": imageveg,
-	“misc”: imagemisc,
+	"misc": imagemisc,
         "a": alpha,
         "b": beta,
         "c": gamma,
