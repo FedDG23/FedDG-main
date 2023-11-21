@@ -50,8 +50,8 @@ class Config:
     imagefood = [933, 934, 932, 963, 930, 928, 924, 959, 931, 927]
     # ["fire_engine", "garbage_truck", "forklift", "racer", "tractor", "unicycle", "rickshaw", "steam_locomotive", "bullet_train", "mountain_bike"]
     imagewheels = [555, 569, 561, 751, 866, 880, 612, 820, 466, 671]
-    # ["bubble", "piggy_bank", "stoplight", "coil", "kimono", "cello", "combination_lock", "triumphal_arch", "fountain", "cowboy_boot"]
-    imagemisc = [971, 719, 920, 506, 614, 486, 507, 873, 562, 514]
+    # ["bubble", "piggy_bank", "stoplight", "coil", "kimono", "cello", "combination_lock", "triumphal_arch", "fountain", "spaghetti_squash"]
+    imagemisc = [971, 719, 920, 506, 614, 486, 507, 873, 562, 940]
     # ["broccoli", "cauliflower", "mushroom", "cabbage", "cardoon", "mashed_potato", "artichoke", "corn", "fountain", "spaghetti_squash"]
     imageveg = [971, 719, 920, 506, 614, 486, 507, 873, 562, 940]
     # ["ladybug", "bee", "monarch", "dragonfly", "mantis", "black_widow", "rhinoceros_beetle", "walking_Stick", "grasshopper", "scorpion"]
@@ -83,6 +83,7 @@ class Config:
         "mammals": imagemammal,
         "marine": marine,
         "veg": imageveg,
+	“misc”: imagemisc,
         "a": alpha,
         "b": beta,
         "c": gamma,
